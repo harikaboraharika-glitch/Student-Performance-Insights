@@ -169,4 +169,18 @@ Synthetic data; correlations are not causation; small groups at the extremes (12
 ## 15. Author
 **Your Name** - Data Analyst (Fresher) | [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
 
-*Replace the placeholders above before publishing.*
+*Replace the placeholders above before publishing.*## 📊 Power BI Dashboard
+
+The interactive Power BI dashboard provides insights into student academic performance, attendance, study hours, subject-wise marks, and pass rates.
+
+### Dashboard Preview
+
+![Student Performance Power BI Dashboard](reports/student_performance_dashboard.png)
+
+**Key Analysis:**
+- Student performance and marks distribution
+- Average marks by subject
+- Attendance vs. final marks
+- Study hours vs. exam performance
+- Pass percentage and grade distribution
+- Subject-wise performance comparison
