@@ -1,0 +1,173 @@
+{
+  "total_records": 1100,
+  "total_students": 220,
+  "avg_final": 58.55,
+  "median_final": 58.5,
+  "avg_attendance": 82.02,
+  "avg_study_hours": 6.09,
+  "pass_pct": 92.64,
+  "by_subject": {
+    "English": {
+      "Avg_Final": 61.42,
+      "Avg_Exam": 59.51,
+      "Avg_Assignment": 65.86,
+      "Pass_Rate": 95.45
+    },
+    "Computer Science": {
+      "Avg_Final": 60.19,
+      "Avg_Exam": 58.35,
+      "Avg_Assignment": 64.47,
+      "Pass_Rate": 94.55
+    },
+    "History": {
+      "Avg_Final": 59.73,
+      "Avg_Exam": 58.28,
+      "Avg_Assignment": 63.11,
+      "Pass_Rate": 92.73
+    },
+    "Science": {
+      "Avg_Final": 57.2,
+      "Avg_Exam": 55.22,
+      "Avg_Assignment": 61.82,
+      "Pass_Rate": 91.36
+    },
+    "Mathematics": {
+      "Avg_Final": 54.22,
+      "Avg_Exam": 52.44,
+      "Avg_Assignment": 58.35,
+      "Pass_Rate": 89.09
+    }
+  },
+  "by_class": {
+    "Grade 10": {
+      "Avg_Final": 60.63,
+      "Pass_Rate": 96.21,
+      "Students": 58
+    },
+    "Grade 11": {
+      "Avg_Final": 58.91,
+      "Pass_Rate": 92.13,
+      "Students": 61
+    },
+    "Grade 9": {
+      "Avg_Final": 57.77,
+      "Pass_Rate": 91.38,
+      "Students": 58
+    },
+    "Grade 12": {
+      "Avg_Final": 56.28,
+      "Pass_Rate": 90.23,
+      "Students": 43
+    }
+  },
+  "by_gender": {
+    "Female": {
+      "Avg_Final": 58.92,
+      "Pass_Rate": 92.04
+    },
+    "Male": {
+      "Avg_Final": 58.22,
+      "Pass_Rate": 93.16
+    }
+  },
+  "by_attendance_band": {
+    "<60%": {
+      "Avg_Final": 48.9,
+      "Records": 7
+    },
+    "60-75%": {
+      "Avg_Final": 52.94,
+      "Records": 223
+    },
+    "75-90%": {
+      "Avg_Final": 58.84,
+      "Records": 668
+    },
+    "90-100%": {
+      "Avg_Final": 64.12,
+      "Records": 202
+    }
+  },
+  "by_study_band": {
+    "0-4 hrs": {
+      "Avg_Exam": 50.07,
+      "Records": 268
+    },
+    "4-8 hrs": {
+      "Avg_Exam": 56.48,
+      "Records": 565
+    },
+    "8-12 hrs": {
+      "Avg_Exam": 62.72,
+      "Records": 242
+    },
+    "12+ hrs": {
+      "Avg_Exam": 77.12,
+      "Records": 25
+    }
+  },
+  "grade_dist": {
+    "A": 46,
+    "B": 137,
+    "C": 322,
+    "D": 325,
+    "E": 189,
+    "F": 81
+  },
+  "students_need_support": 70,
+  "students_need_support_pct": 31.82,
+  "top_students": {
+    "S1211": 88.11,
+    "S1138": 84.5,
+    "S1044": 83.76,
+    "S1019": 83.08,
+    "S1205": 82.32
+  },
+  "corr_Attendance_Final_Marks": 0.311,
+  "p_Attendance_Final_Marks": 4.2028870643101924e-26,
+  "corr_Study_Hours_Exam_Marks": 0.423,
+  "p_Study_Hours_Exam_Marks": 6.569227546949389e-49,
+  "corr_Study_Hours_Final_Marks": 0.432,
+  "p_Study_Hours_Final_Marks": 2.4600455112450542e-51,
+  "exam_per_study_hour": 2.13,
+  "final_per_attendance_pt": 0.446,
+  "r2_attendance_final": 0.097,
+  "anova_subject_F": 12.22,
+  "anova_subject_p": 1.007916005771754e-09,
+  "ttest_gender_t": -0.931,
+  "ttest_gender_p": 0.35185887638956304,
+  "outliers_after": {
+    "Attendance": 2,
+    "Study_Hours": 4,
+    "Assignment_Marks": 6,
+    "Exam_Marks": 9,
+    "Final_Marks": 7
+  },
+  "raw_rows": 1140,
+  "raw_missing_total": 169,
+  "raw_duplicates": 40,
+  "raw_missing_by_col": {
+    "Gender": 11,
+    "Attendance": 35,
+    "Study_Hours": 34,
+    "Assignment_Marks": 33,
+    "Exam_Marks": 33,
+    "Final_Marks": 23
+  },
+  "outliers_before": {
+    "Attendance": 2,
+    "Study_Hours": 9,
+    "Assignment_Marks": 4,
+    "Exam_Marks": 7,
+    "Final_Marks": 6
+  },
+  "invalid_study_hours": 6,
+  "clean_rows": 1100,
+  "low_performers_examples": {
+    "S1092": 30.09,
+    "S1192": 31.96,
+    "S1132": 36.34,
+    "S1156": 37.31,
+    "S1096": 37.91
+  }
+}
