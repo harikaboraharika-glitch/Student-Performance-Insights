@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Excel temp/lock files
+~$*.xlsx
+~$*.xls
+
+# Power BI local cache / temp
+*.pbi.tmp
+.pbi/
+localSettings.json
+
+# Logs
+*.log
